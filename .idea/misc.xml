@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/buscador/pom.xml" />
         <option value="$PROJECT_DIR$/operador/pom.xml" />
         <option value="$PROJECT_DIR$/back-end-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>

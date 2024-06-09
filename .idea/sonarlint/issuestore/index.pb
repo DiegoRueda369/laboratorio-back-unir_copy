@@ -25,3 +25,5 @@ Q
 !back-end-cloud-gateway/Dockerfile,8\f\8f9d46084a465aaeefb35e5f864c3872b32b9d8e
 N
 back-end-cloud-gateway/pom.xml,9\b\9b5d50f3369a605ee881497e6ed3604a729c0ed0
+n
+>gateway/src/main/java/com/unir/gateway/GatewayApplication.java,7\d\7d2aa05059bfc4bd237872f5f6d4094d33c1a710
