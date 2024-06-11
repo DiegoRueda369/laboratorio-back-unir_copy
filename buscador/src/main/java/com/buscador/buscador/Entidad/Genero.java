@@ -22,6 +22,5 @@ public class Genero {
 
     @ManyToOne
     @JoinColumn(name = "id_film", insertable = false, updatable = false)
-    @JsonIgnore
     private Pelicula pelicula;
 }

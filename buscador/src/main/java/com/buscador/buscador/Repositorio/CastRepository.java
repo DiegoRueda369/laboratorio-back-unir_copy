@@ -15,4 +15,6 @@ public interface CastRepository extends JpaRepository<Cast, CastId> {
     Optional<Integer> findMaxCastId();
 
     List<Cast> findByIdCastNameContaining(String castName);
+
+
 }

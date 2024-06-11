@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: ms-inventory-products
+    name: ms-inventory-operation
 
   datasource:
       url: jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:6543/buscador
@@ -28,4 +28,4 @@ eureka:
       defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
   instance:
     preferIpAddress: true
-    hostname: ms-inventory-products
+    hostname: ms-inventory-operation
