@@ -1,5 +1,6 @@
 package com.Operador.operador.Entidad;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,6 +28,7 @@ public class Usuario {
     @Column(name = "tu_direccion")
     private String tuDireccion;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "usuario")
     private Set<Transaccion> transacciones;
 
